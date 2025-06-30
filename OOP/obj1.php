@@ -1,6 +1,7 @@
 <?php
     class Person{  //classe
-        private $name; //proprietà 
+        private $name; //proprietà, public/protected/private
+        //const $costante = "valore";   
         public function __construct($name){ //costruttore
             $this->name = $name; //inizializzazione
         }
