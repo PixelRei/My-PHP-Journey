@@ -17,5 +17,16 @@ $nascita = "La mia data di nascita è il 07 dicembre 1986";
 $pos = strpos($nascita, "dicembre");
 echo $pos . "<br> <br>";
 //reverse a string strrev()
-echo strrev("CAT"); 
+echo strrev("CAT")."<br>"; 
+//replace a part of a string
+$str1 = "hello world";
+echo str_replace("world", "me", $str1)."<br><br>";
+//dividing a string with explode and implode
+//explode creates an array
+$data = "02/07/2025";
+$array = explode("/", $data);
+echo print_r($array);
+$data2 = implode("/", $array);
+echo "<br><br>la data era: $data2";
+echo "<br>la prima lettera è $data2[0]"; //to access a char of a string use the string like an array
 ?>
