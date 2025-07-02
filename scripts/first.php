@@ -1,4 +1,3 @@
 <?php
-$età = $_POST['età'];
-echo $età;
+echo "PHP funzia!";
 ?>
