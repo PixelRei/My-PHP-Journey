@@ -6,4 +6,7 @@
     }else{
         echo "Password non corretta";
     }
+    /**metodi usati: password_hash() per criptare la password (usando l'algoritmo che si desidera)
+     *               password_verify() per controllare la corrispondenza tra la password dell'utente e quella criptata
+     */
 ?>
